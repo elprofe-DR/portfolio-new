@@ -166,6 +166,7 @@ text-align: left;
 .QRCODE {
 width: 150px;
 padding: 20PX;
+height: 200px;
 }
 
 .QRCODE:hover
