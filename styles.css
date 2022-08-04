@@ -1,4 +1,3 @@
-/***************************TAG SELECTORS********************************/
 body {
   margin: 0;
   font-family: sans-serif;
@@ -40,6 +39,7 @@ hr {
   width: 90px;
   padding-bottom: 40px;
   margin-top: 30px;
+  margin-left: 45.5%;
 }
 
 a:hover {
@@ -111,7 +111,7 @@ margin-top: 70px;
   padding-bottom: 30px;
 }
 
-.btn {
+.btncont {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
   background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
@@ -128,7 +128,7 @@ margin-top: 70px;
   text-decoration: none;
 }
 
-.btn:hover {
+.btncont:hover {
   background: #30e3cb;
   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -159,20 +159,8 @@ margin-top: 70px;
 }
 
 .PWE {
-padding-left: 180px;
-padding-right: 180px;
+padding: 20PX 180PX 20PX 180PX;
 text-align: left;
-}
-
-.QRCODE {
-width: 150px;
-padding: 20PX;
-height: 200px;
-}
-
-.QRCODE:hover
-{
-  background: #30e3cb;
 }
 /****************************images****************************************/
 .avatar {
@@ -192,10 +180,25 @@ height: 200px;
   margin-left: 30px;
   width: 170px;
 }
+
+.QRCODE {
+width: 150px;
+padding: 20PX;
+height: 200px;
+}
+
+.QRCODE:hover {
+  background: #30e3cb;
+}
+/**************buttons*********************/
 #carouselproto {
 background-color: #CDF0EA;
 }
 /***************************ID SELECTORS*********************************/
+
+
+
+/***************************bootstrap***********************************/
 /**the display: element is comprised of 4 display values. block, inline, inline-block and none***/
 /**the display-none value makes whatever element disapear and it lives no trace of it at simple sight. the other thing that makes things disappear is the visibility property, it makes the element desapear but keeps its space on the screen*/
 /**the inline-block element gives you the best of both worlds (block elements and inline elements). remember that block elementes take the entire block to the left and right and inline elements only take the space they need to take. with inline elements you cannot change the width of an element while with blocks elements you can. now inline-block elements allows you to do both things and much more.-->**/
