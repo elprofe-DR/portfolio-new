@@ -13,6 +13,7 @@ h1 {
   font-size: 6em;
   color: #66BFBF;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 h2 {
@@ -190,6 +191,9 @@ height: 200px;
   float: right;
   margin-left: 30px;
   width: 170px;
+}
+#carouselproto {
+background-color: #CDF0EA;
 }
 /***************************ID SELECTORS*********************************/
 /**the display: element is comprised of 4 display values. block, inline, inline-block and none***/
