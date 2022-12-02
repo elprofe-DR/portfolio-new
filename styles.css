@@ -194,6 +194,20 @@ height: 200px;
 #carouselproto {
 background-color: #CDF0EA;
 }
+
+.projects{
+  font-size: 20px;
+}
+
+.atag{
+  color: #11999E;
+}
+.atag:hover {
+  color: #381460;
+}
+.grow{
+  font-size: 30px;
+}
 /***************************ID SELECTORS*********************************/
 
 
